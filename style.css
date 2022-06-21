@@ -18,7 +18,7 @@
 
 body{background-color:var(--ui-color);}
 
-div.main-panel{width:80vw; height:80vh; position:absolute; top:50%; left:50%; right:-50%; transform:translate(-50%,-50%); background-color:var(--ui-darkest); padding:1em;}
+div.main-panel{width:80vw; height:80vh; position:absolute; top:50%; left:50%; right:-50%; transform:translate(-50%,-50%); padding:1em; overflow:hidden; background-color:var(--ui-darkest);}
 div.link-panel{padding-top:1em; text-align:center;}
 
 img.skweezu{height:100%; float:right;}
