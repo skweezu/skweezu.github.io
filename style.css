@@ -10,6 +10,7 @@
   --mega-color:#d90007;
   --twitter-color:#1da1f2;
   --instagram-color:#dd2a7b;
+  --twitch-color:#a970ff;
   --rym-color:#55b9e5;
   --mal-color:#2e51a2;
 }
@@ -37,6 +38,8 @@ a.twitter{color:var(--twitter-color); background-color:var(--ui-darkest); border
 a.twitter:hover{color:var(--ui-darkest); background-color:var(--twitter-color); border-color:transparent;}
 a.instagram{color:var(--instagram-color); background-color:var(--ui-darkest); border-style:solid; border-width:0.1em; border-color:var(--instagram-color);}
 a.instagram:hover{color:var(--ui-darkest); background-color:var(--instagram-color); border-color:transparent;}
+a.twitch{color:var(--twitch-color); background-color:var(--ui-darkest); border-style:solid; border-width:0.1em; border-color:var(--twitch-color);}
+a.twitch:hover{color:var(--ui-darkest); background-color:var(--twitch-color); border-color:transparent;}
 a.rym{color:var(--rym-color); background-color:var(--ui-darkest); border-style:solid; border-width:0.1em; border-color:var(--rym-color);}
 a.rym:hover{color:var(--ui-darkest); background-color:var(--rym-color); border-color:transparent;}
 a.mal{color:var(--mal-color); background-color:var(--ui-darkest); border-style:solid; border-width:0.1em; border-color:var(--mal-color);}
