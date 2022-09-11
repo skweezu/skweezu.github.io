@@ -6,7 +6,7 @@ body { width:100vw; height:100vh; display:flex; flex-direction:column; justify-c
 
 .root-box { width:90vw; height:90vh; margin:auto; }
 
-  .box-titlebox { height:3.13em; display:flex; align-items:center; }
+  .box-titlebox { display:flex; align-items:center; }
 
     .titlebox-title { height:100%; font-size:2.5em; padding-left:.4em; padding-right:.4em; white-space:nowrap; text-overflow:ellipsis; }
 
@@ -58,11 +58,11 @@ body { width:100vw; height:100vh; display:flex; flex-direction:column; justify-c
 
   .root-box {  }
 
-    .box-titlebox {  }
+    .box-titlebox { flex-direction:column; }
 
-      .titlebox-title {  }
+      .titlebox-title { width:100%; text-align:center; }
 
-      .titlebox-links {  }
+      .titlebox-links { padding-top:.4em; padding-bottom:.4em; }
 
     .box-body { flex-direction:column; }
 
