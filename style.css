@@ -18,7 +18,9 @@ body { width:100vw; height:100vh; display:flex; flex-direction:column; justify-c
 
       .body-text::-webkit-scrollbar { display:none; }
 
-      .text-info {  }
+        .text-info {  }
+      
+        .text-appcredit { font-size:.8em; font-style:italic; }
 
     .body-img { width:70%; display:flex; justify-content:center; align-content:center; }
 
@@ -108,6 +110,11 @@ body { background-color:var(--bgc); }
     .body-text { background-color:var(--fgc-dark); }
 
       .text-info { color:var(--fgc); }
+      
+      .text-appcredit {  }
+      
+        .text-appcredit a:link, .titlebox-links a:visited, .titlebox-links a:active { text-decoration:none; }
+        .text-appcredit a:hover { text-decoration:underline; }
       
         .nsfw { color:#ff4444; font-style:italic; }
 
